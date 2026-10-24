@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Storingen in je buurt",
+        "description": "Vul het adres in van je Storingen-hub (de server met de open API).",
+        "data": {
+          "url": "Hub-URL",
+          "postcode": "Postcode (optioneel)"
+        },
+        "data_description": {
+          "url": "Bijvoorbeeld http://192.168.1.50:3032",
+          "postcode": "Beperk tot een buurt, bijvoorbeeld 1791. Laat leeg voor heel Nederland."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Kan de hub niet bereiken op dit adres. Controleer de URL en of de server draait."
+    },
+    "abort": {
+      "already_configured": "Deze hub is al toegevoegd."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opties",
+        "data": {
+          "postcode": "Postcode (optioneel)",
+          "scan_interval": "Ververs elke (minuten)"
+        }
+      }
+    }
+  }
+}

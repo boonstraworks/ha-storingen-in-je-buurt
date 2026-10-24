@@ -1,0 +1,12 @@
+{
+  "domain": "storingen_in_je_buurt",
+  "name": "Storingen in je buurt",
+  "codeowners": ["@boonstraworks"],
+  "config_flow": true,
+  "documentation": "https://github.com/boonstraworks/ha-storingen-in-je-buurt",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/boonstraworks/ha-storingen-in-je-buurt/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
